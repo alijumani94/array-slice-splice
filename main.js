@@ -1,0 +1,10 @@
+var friends = ["Ali ", "Bisma ", "Shakeel ", "Daud"];
+friends.splice(2, 3, "Ali Aman", "Shariq");
+var a = friends[0];
+var b = friends[1];
+var c = friends[2];
+var d = friends[3];
+var closeFriends = friends.slice(1, 3);
+console.log("They are my friends: " + friends);
+console.log("They are my close friends: " + closeFriends);
+console.log("They are my cousin friends: " + a + d);
